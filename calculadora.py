@@ -15,15 +15,15 @@ def decimal_binario():
     print(binario)'''            
 
 
-num_prueba_decimal=int(input("Digite su número: "))
+num_decimal=int(input("Digite su número: "))
 
-def prueba(num_prueba_decimal):
+def decimal_binario(num_decimal):
     modulos=[]
     
     while True:
-        var_guar=num_prueba_decimal//2
-        var_guar2=num_prueba_decimal%2
-        num_prueba_decimal=var_guar
+        var_guar=num_decimal//2
+        var_guar2=num_decimal%2
+        num_decimal=var_guar
         modulos.append(var_guar2)
         
         if var_guar<=0:
@@ -35,7 +35,7 @@ def prueba(num_prueba_decimal):
     return modulos_reverse
         
 
-var=prueba(num_prueba_decimal)
+var=decimal_binario(num_decimal)
 
 print(*var)
 
