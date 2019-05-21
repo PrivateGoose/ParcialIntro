@@ -45,7 +45,6 @@ print(*var)
 def decimal_hexadecimal(num_decimal):
     modulos=[]
     
-    
     while True:
         var_guar=num_decimal//16
         var_guar2=num_decimal%16
@@ -58,7 +57,29 @@ def decimal_hexadecimal(num_decimal):
     for a in reversed(modulos):
         modulos_reverse.append(a)
     
-    return modulos_reverse
+    
+
+    num_convert=[]
+
+    for i in modulos_reverse:
+        if i==10:
+            i="A"
+        elif i==11:
+            i="B"
+        elif i==12:
+            i="C"
+        elif i==13:
+            i="D"
+        elif i==14:
+            i="E"
+        elif i==15:
+            i="F"
+
+        num_convert.append(i)
+
+    return num_convert
+
+
 
 num_decimal=int(input("Digite su número: ")) 
 var=decimal_hexadecimal(num_decimal)

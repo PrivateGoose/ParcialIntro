@@ -1,11 +1,11 @@
     Decimal
     |  |   |
 Binario|   |
-       |   |
+  Echo |   |
      Octal |
-           |
+     Hecho |
        Hexadecimal
-
+           Hecho
     Binario
     |  |  |
 Decimal|  |
