@@ -1,0 +1,31 @@
+    Decimal
+    |  |   |
+Binario|   |
+       |   |
+     Octal |
+           |
+       Hexadecimal
+
+    Binario
+    |  |  |
+Decimal|  |
+       |  |
+     Octal|
+          |
+      Hexadecimal
+
+     Octal
+    |  |  |
+Decimal|  |
+       |  |
+   Binario|
+          |
+      Hexadecimal
+
+   Hexadecimal
+    |  |  |
+Binario|  |
+       |  |
+   Decimal|
+          |
+        Octal
