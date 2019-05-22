@@ -1,5 +1,3 @@
-
-
 def decimal_binario(num_decimal):
     modulos=[]
     
@@ -42,11 +40,11 @@ num_decimal=int(input("Digite su número: "))
 var=decimal_octal(num_decimal)
 print(*var)
 
-'''def decimal_hexadecimal(num_decimal):
+def decimal_hexadecimal(num_decimal):
     modulos=[]
     
     while True:
-        var_guar=num_decimal//16
+        var_guar=int(num_decimal/16)
         var_guar2=num_decimal%16
         num_decimal=var_guar
         modulos.append(var_guar2)
@@ -77,12 +75,12 @@ print(*var)
 
         num_convert.append(i)
 
-    return num_convert'''
+    return num_convert
 
 
 num_decimal=input("Digite su número: ") 
-'''var=decimal_hexadecimal(num_decimal)
-print(*var)'''
+var=decimal_hexadecimal(num_decimal)
+print(*var)
 
 
 
